@@ -155,6 +155,38 @@ img {
   color: var(--text-color);
 }
 
+.profile__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.75rem;
+}
+
+.profile__social-link {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: 0.3s;
+}
+
+.profile__info {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.profile__info-group {
+  text-align: center;
+}
+
+.profile__info-number {
+  font-size: var(--normal-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.profile__info-description {
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+
 .profile__buttons,
 .profile__buttons-small {
   display: flex;
