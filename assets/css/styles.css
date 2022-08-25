@@ -279,6 +279,10 @@ body.dark-theme {
   background-color: var(--text-color-light);
 }
 
+#copy-email {
+  cursor: pointer;
+}
+
 /*=============== FILTERS TABS ===============*/
 .filters__content {
   margin: 2rem 0 2.5rem;

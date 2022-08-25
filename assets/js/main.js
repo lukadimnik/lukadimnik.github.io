@@ -68,3 +68,15 @@ sr.reveal(`.profile__info-group`, { interval: 100, delay: 700 });
 sr.reveal(`.profile__buttons`, { delay: 800 });
 sr.reveal(`.filters__content`, { delay: 900 });
 sr.reveal(`.filters`, { delay: 1000 });
+
+/*=============== COPY TO CLIPBOARD ===============*/
+function copyFunction() {
+  const textArea = document.createElement('textarea');
+  textArea.textContent = 'luka.dimnik88@gmail.com';
+  document.body.append(textArea);
+  textArea.select();
+  document.execCommand('copy');
+  textArea.remove();
+}
+
+document.getElementById('copy-email').addEventListener('click', copyFunction);
