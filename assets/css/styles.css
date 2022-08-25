@@ -283,6 +283,11 @@ body.dark-theme {
   cursor: pointer;
 }
 
+#copy-email:active {
+  box-shadow: 0 5px var(--first-color);
+  transform: translateY(4px);
+}
+
 /*=============== FILTERS TABS ===============*/
 .filters__content {
   margin: 2rem 0 2.5rem;
